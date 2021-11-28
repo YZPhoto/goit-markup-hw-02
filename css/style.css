@@ -1,0 +1,166 @@
+body{
+ font-family: 'Roboto', sans-serif;
+ color: #212121;
+ letter-spacing: 0.03em;
+}
+:root{
+--brand-color: #2196F3
+} 
+ul{
+list-style: none;
+}
+/*Студия*/
+
+/* Навигация */
+ .nav {
+ 
+ }    
+.link-logo{
+    font-family: Raleway;
+    font-weight: 700px;
+    color: #000 ;
+    font-size: 26px;
+    line-height: 1.2;
+
+}
+.logo{
+    color: var(--brand-color) ;
+    
+}
+
+}
+.nav-links{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+   
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--brand-color)
+}
+
+
+/* Контакты */
+.contacts-section{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus{
+    color: var(--brand-color);
+
+}
+/* Банер */
+
+.section-decision{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    text-align: center;
+    background: #2F303A;
+}
+
+.decision{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.decision-button{
+background-color: var(--brand-color);
+font-family: inherit;
+ color: #fff;
+}
+/*Особенности*/
+
+.feature-title{
+    
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    }
+.feature-text{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+/*Чем мы занимаемся*/
+
+.work-list, .team-title
+{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+/*Команда*/
+.section-team{
+    background-color: #F5F4FA;
+
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.team-profession{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #757575;
+}
+
+/*Футер*/
+.section-footer{
+
+    background: #2F303A;
+}
+.logo-white{
+   color: #fff ;
+    
+}
+.text-address{
+    font-size: 14px;
+    line-height: 1.71;
+    color: #fff;
+}
+
+/*Портфолио*/
+
+/*Кнопки-навигации*/
+
+.filter-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+button:focus,
+button:hover{
+color: #fff;
+background-color: var(--brand-color);
+}
+
+.projekt-title{
+font-weight: bold;
+font-size: 18px;
+line-height: 2.0;
+}
+.projekt-work{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+color: #757575;
+}
