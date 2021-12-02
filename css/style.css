@@ -21,22 +21,21 @@ list-style: none;
     color: #000 ;
     font-size: 26px;
     line-height: 1.2;
-
+    text-decoration: none;
 }
 .logo{
     color: var(--brand-color) ;
     
 }
 
-}
-.nav-links{
+.nav-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-   
+    text-decoration: none;
+    color: #212121;
 }
-
 .nav-link:focus,
 .nav-link:hover {
     color: var(--brand-color)
@@ -44,14 +43,18 @@ list-style: none;
 
 
 /* Контакты */
-.contacts-section{
+
+.contact{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none; 
+    color: #757575;
 }
-.contact:hover,
-.contact:focus{
+
+.contact:focus,
+ .contact:hover{
     color: var(--brand-color);
 
 }
@@ -78,6 +81,15 @@ list-style: none;
 background-color: var(--brand-color);
 font-family: inherit;
  color: #fff;
+ font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+ background-color: var(--brand-color);
+}
+button{
+
+
+
 }
 /*Особенности*/
 
@@ -135,6 +147,7 @@ font-family: inherit;
     font-size: 14px;
     line-height: 1.71;
     color: #fff;
+    text-decoration: none;
 }
 
 /*Портфолио*/
@@ -142,9 +155,12 @@ font-family: inherit;
 /*Кнопки-навигации*/
 
 .filter-btn{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    background-color: #F5F4FA;
+    
 }
 
 button:focus,
@@ -159,6 +175,7 @@ font-size: 18px;
 line-height: 2.0;
 }
 .projekt-work{
+font-family: Roboto;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
